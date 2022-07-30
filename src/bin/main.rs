@@ -1,5 +1,5 @@
-extern crate restart;
-use restart::ThreadPool;
+extern crate webserv;
+use webserv::ThreadPool;
 use std::fs::File;
 use std::io::prelude::*;
 use std::net::{TcpListener, TcpStream};
